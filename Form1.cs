@@ -81,23 +81,6 @@ namespace ГеометрическиеФигуры
             Invalidate(); // Вызов события Paint для перерисовки окна
         }
 
-        //private void добавитьToolStripMenuItem_Click(object sender, EventArgs e)
-        //{
-        //    Form2 f2 = new Form2(); // Создаем вторую форму
-        //    f2.ShowDialog(); // Открываем вторую форму
-        //    if (f2.Rc)
-        //    { // Если нажали «ОК»
-        //        c = new MyShape(f2.X, f2.Y, f2.R); // Создадим окружность
-        //        if (c.Valid(f2.X, f2.Y, f2.R))
-        //        {
-        //            a.Add(c); // Добавим окружность в массив
-        //            Invalidate(); // Перерисуем окно
-        //        }
-        //        else MessageBox.Show("Окружность за пределами формы", "Предупреждение об ошибке");
-
-        //    } // if
-        //}
-
         private void Form1_MouseDown(object sender, MouseEventArgs e)
         {
             for (int i = 0; i < Count; i++)

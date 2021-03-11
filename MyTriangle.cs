@@ -13,7 +13,7 @@ namespace ГеометрическиеФигуры
         { // треугольника
             _Type = 3;
         } // Конструктор
-        override public void Draw(Graphics g, bool IsCur) // Метод рисования квадрата
+        override public void Draw(Graphics g, bool IsCur) // Метод рисования треугольника
         {
             PointF[] points = new PointF[3]; //Массив точек вершин треугольника
             double TriangleH = (R * Math.Sqrt(3.0)) / 2;
